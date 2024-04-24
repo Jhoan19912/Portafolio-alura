@@ -69,19 +69,21 @@ section.menu {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+  @media screen and (max-width: 1000vw) {
     /*Menu*/
   
-    .menu__icono {
-      height: 15px;
-    }
-  
+        
     .menu__title {
       font-size: 0.8rem;
+      width: 2vw;
+      margin-left: 1vw;
     }
   
     .menu__list__item {
       font-size: 0.7rem;
+      width: 5vx;
+      margin-right: -6vw;
+      margin-left: 8vw;
     }
   }
 
@@ -155,16 +157,16 @@ section.title {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 57.7em) {
     /*Titulo*/
   
     section.title {
-      width: 90vw;
+      width: 91vw;
+      
     }
   
     .title__div {
       display: flex;
-      flex-direction: column;
       justify-content: space-between;
     }
   
@@ -183,12 +185,16 @@ section.title {
   
     .bi {
       font-size: 1.2rem;
+      margin-right: -15px;
+      margin-left: 10px;
+      
     }
   
     .title__network__item--descargaCV {
       width: 16vw;
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       text-align: center;
+      right: 50px;
     }
   }
 
@@ -218,20 +224,24 @@ section.about {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 55.7em) {
     /*Sección sobre mi*/
   
     .about__title {
       font-size: 1rem;
+      margin-inline: 150px;
+      margin-top: 25%;
     }
   
     .about__paragraph {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      margin-inline-start: 60px;
     }
   }
   
 
   /*Sección Skills*/
+
 
   .skills {
     display: flex;
@@ -270,15 +280,17 @@ section.about {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 57.5em) {
     /*Skills*/
   
     .skills__title {
       font-size: 1.2rem;
+      margin-top: 25%;
     }
   
     .skills__box {
-      width: 35vw;
+      width: 19vw;
+      right: -80px;
       margin-right: 0rem;
     }
   }
@@ -330,8 +342,9 @@ section.about {
     }
   
     .hobbies__box {
-      width: 35vw;
-      margin-right: 0rem;
+      width: 10vw;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 
@@ -358,15 +371,22 @@ section.academic {
   
     .academic__title {
       font-size: 1.2rem;
+      margin-top: 15%;
     }
   
     .academic__courses {
       flex-direction: column;
       align-items: center;
+      margin-left: 125px;
+      margin-right: 100px;
+      margin-top: 15%;
+      
     }
   
     .academic__courses__list {
       padding-left: 0;
+      left: 10px;
+      width: 260px;
     }
   }
 
@@ -446,17 +466,28 @@ section.formcontato {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1000px) {
     /*Contacto*/
   
     .formcontato__text {
-      margin-left: 2vw;
-      margin-right: 2vw;
+      margin-right: 10px;
+      width: 240px;
+      margin-top: -25%;
+      left: 50%;
     }
   
     .formcontato__botao {
       
       font-size: 0.7rem;
+      width: 205px;
+    }
+    .formcontato__img{
+      width: 80%;
+      position: relative;
+      margin-top: 450px;
+      top: -55%;
+      margin-left: 15%;
+      
     }
   }
 
