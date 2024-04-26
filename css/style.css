@@ -69,18 +69,18 @@ section.menu {
   }
 
   /*Mobile*/
-  @media screen and (max-width: 1000vw) {
+  @media (max-width: 57em) {
     /*Menu*/
   
         
     .menu__title {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       width: 2vw;
       margin-left: 1vw;
     }
   
     .menu__list__item {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       width: 5vx;
       margin-right: -6vw;
       margin-left: 8vw;
@@ -157,7 +157,7 @@ section.title {
   }
 
   /*Mobile*/
-@media screen and (max-width: 57.7em) {
+  @media (max-width: 57em) {
     /*Titulo*/
   
     section.title {
@@ -224,7 +224,7 @@ section.about {
   }
 
   /*Mobile*/
-@media screen and (max-width: 55.7em) {
+  @media (max-width: 57em) {
     /*Sección sobre mi*/
   
     .about__title {
@@ -280,7 +280,7 @@ section.about {
   }
 
   /*Mobile*/
-@media screen and (max-width: 57.5em) {
+  @media (max-width: 57em) {
     /*Skills*/
   
     .skills__title {
@@ -334,7 +334,7 @@ section.about {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+  @media (max-width: 57em) {
     /*Hobbies*/
   
     .hobbies__title {
@@ -342,7 +342,7 @@ section.about {
     }
   
     .hobbies__box {
-      width: 10vw;
+      width: 15vw;
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -366,7 +366,7 @@ section.academic {
   }
 
   /*Mobile*/
-@media screen and (max-width: 425px) {
+  @media (max-width: 57em) {
     /*Formación Académica*/
   
     .academic__title {
@@ -466,14 +466,15 @@ section.formcontato {
   }
 
   /*Mobile*/
-@media screen and (max-width: 1000px) {
+  @media (max-width: 57em) {
     /*Contacto*/
   
     .formcontato__text {
       margin-right: 10px;
       width: 240px;
-      margin-top: -25%;
+      margin-top: 25%;
       left: 50%;
+      margin-left: -25%;
     }
   
     .formcontato__botao {
@@ -482,11 +483,11 @@ section.formcontato {
       width: 205px;
     }
     .formcontato__img{
-      width: 80%;
+      width: 100%;
       position: relative;
-      margin-top: 450px;
-      top: -55%;
-      margin-left: 15%;
+      margin-top: 290px;
+      top: -65%;
+      margin-left: 55%;
       
     }
   }
